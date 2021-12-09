@@ -149,4 +149,4 @@ dmypy.json
 cython_debug/
 
 #Idea
-,idea/
+.idea/
