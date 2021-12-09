@@ -1,0 +1,997 @@
+{
+  "meta": {},
+  "data": [
+    {
+      "label": "Adware",
+      "type": "content",
+      "legacyid": 1,
+      "integration": false,
+      "deprecated": false,
+      "id": 0
+    },
+    {
+      "label": "Illegal Activities",
+      "type": "content",
+      "legacyid": 347,
+      "integration": false,
+      "deprecated": false,
+      "id": 121
+    },
+    {
+      "label": "Command and Control",
+      "type": "security",
+      "legacyid": 92,
+      "integration": false,
+      "deprecated": false,
+      "id": 65
+    },
+    {
+      "label": "Mobile Threats",
+      "type": "security",
+      "legacyid": 87,
+      "integration": false,
+      "deprecated": false,
+      "id": 62
+    },
+    {
+      "label": "Sinkhole",
+      "type": "system",
+      "legacyid": 178,
+      "integration": false,
+      "deprecated": false,
+      "id": 74
+    },
+    {
+      "label": "DNS Tunneling VPN",
+      "type": "security",
+      "legacyid": 176,
+      "integration": false,
+      "deprecated": false,
+      "id": 110
+    },
+    {
+      "label": "Professional Networking",
+      "type": "content",
+      "legacyid": 365,
+      "integration": false,
+      "deprecated": false,
+      "id": 130
+    },
+    {
+      "label": "Online Trading",
+      "type": "content",
+      "legacyid": 361,
+      "integration": false,
+      "deprecated": false,
+      "id": 128
+    },
+    {
+      "label": "Infringing Intellectual Property",
+      "type": "system",
+      "legacyid": 409,
+      "integration": false,
+      "deprecated": false,
+      "id": 153
+    },
+    {
+      "label": "Drugs",
+      "type": "content",
+      "legacyid": 8,
+      "integration": false,
+      "deprecated": false,
+      "id": 7
+    },
+    {
+      "label": "Cisco Threat Response",
+      "type": "security",
+      "legacyid": 127,
+      "integration": true,
+      "deprecated": false,
+      "id": 86
+    },
+    {
+      "label": "Photo Sharing",
+      "type": "content",
+      "legacyid": 48,
+      "integration": false,
+      "deprecated": false,
+      "id": 20
+    },
+    {
+      "label": "Allow List",
+      "type": "customer",
+      "legacyid": 114,
+      "integration": false,
+      "deprecated": false,
+      "id": 72
+    },
+    {
+      "label": "Web Spam",
+      "type": "content",
+      "legacyid": 77,
+      "integration": false,
+      "deprecated": false,
+      "id": 58
+    },
+    {
+      "label": "Drive-by Downloads/Exploits",
+      "type": "security",
+      "legacyid": 83,
+      "integration": false,
+      "deprecated": false,
+      "id": 60
+    },
+    {
+      "label": "Alcohol",
+      "type": "content",
+      "legacyid": 2,
+      "integration": false,
+      "deprecated": false,
+      "id": 1
+    },
+    {
+      "label": "Social Networking",
+      "type": "content",
+      "legacyid": 24,
+      "integration": false,
+      "deprecated": false,
+      "id": 24
+    },
+    {
+      "label": "Sex Education",
+      "type": "content",
+      "legacyid": 375,
+      "integration": false,
+      "deprecated": false,
+      "id": 135
+    },
+    {
+      "label": "Travel",
+      "type": "content",
+      "legacyid": 68,
+      "integration": false,
+      "deprecated": false,
+      "id": 55
+    },
+    {
+      "label": "Internet Watch Foundation",
+      "type": "content",
+      "legacyid": 126,
+      "integration": false,
+      "deprecated": false,
+      "id": 85
+    },
+    {
+      "label": "Sports",
+      "type": "content",
+      "legacyid": 51,
+      "integration": false,
+      "deprecated": false,
+      "id": 39
+    },
+    {
+      "label": "Tasteless",
+      "type": "content",
+      "legacyid": 59,
+      "integration": false,
+      "deprecated": false,
+      "id": 46
+    },
+    {
+      "label": "Terrorism",
+      "type": "content",
+      "legacyid": 401,
+      "integration": false,
+      "deprecated": false,
+      "id": 149
+    },
+    {
+      "label": "IT-ADM",
+      "type": "content",
+      "legacyid": 412,
+      "integration": false,
+      "deprecated": false,
+      "id": 157
+    },
+    {
+      "label": "Chat",
+      "type": "content",
+      "legacyid": 5,
+      "integration": false,
+      "deprecated": false,
+      "id": 4
+    },
+    {
+      "label": "Unauthorized IP Tunnel Access",
+      "type": "security",
+      "legacyid": 169,
+      "integration": false,
+      "deprecated": false,
+      "id": 106
+    },
+    {
+      "label": "Freeware and Shareware",
+      "type": "content",
+      "legacyid": 343,
+      "integration": false,
+      "deprecated": false,
+      "id": 119
+    },
+    {
+      "label": "Personal VPN",
+      "type": "content",
+      "legacyid": 393,
+      "integration": false,
+      "deprecated": false,
+      "id": 144
+    },
+    {
+      "label": "Research/Reference",
+      "type": "content",
+      "legacyid": 54,
+      "integration": false,
+      "deprecated": false,
+      "id": 54
+    },
+    {
+      "label": "Organizational Email",
+      "type": "content",
+      "legacyid": 387,
+      "integration": false,
+      "deprecated": false,
+      "id": 141
+    },
+    {
+      "label": "Society and Culture",
+      "type": "content",
+      "legacyid": 379,
+      "integration": false,
+      "deprecated": false,
+      "id": 137
+    },
+    {
+      "label": "Instant Messaging",
+      "type": "content",
+      "legacyid": 16,
+      "integration": false,
+      "deprecated": false,
+      "id": 15
+    },
+    {
+      "label": "Automotive",
+      "type": "content",
+      "legacyid": 70,
+      "integration": false,
+      "deprecated": false,
+      "id": 48
+    },
+    {
+      "label": "Non-Profits",
+      "type": "content",
+      "legacyid": 69,
+      "integration": false,
+      "deprecated": false,
+      "id": 50
+    },
+    {
+      "label": "Dynamic and Residential",
+      "type": "content",
+      "legacyid": 337,
+      "integration": false,
+      "deprecated": false,
+      "id": 116
+    },
+    {
+      "label": "Portals",
+      "type": "content",
+      "legacyid": 21,
+      "integration": false,
+      "deprecated": false,
+      "id": 21
+    },
+    {
+      "label": "Webmail",
+      "type": "content",
+      "legacyid": 29,
+      "integration": false,
+      "deprecated": false,
+      "id": 31
+    },
+    {
+      "label": "Computer Security",
+      "type": "content",
+      "legacyid": 331,
+      "integration": false,
+      "deprecated": false,
+      "id": 113
+    },
+    {
+      "label": "Business Services",
+      "type": "content",
+      "legacyid": 56,
+      "integration": false,
+      "deprecated": false,
+      "id": 32
+    },
+    {
+      "label": "Social Science",
+      "type": "content",
+      "legacyid": 377,
+      "integration": false,
+      "deprecated": false,
+      "id": 136
+    },
+    {
+      "label": "Web Hosting",
+      "type": "content",
+      "legacyid": 383,
+      "integration": false,
+      "deprecated": false,
+      "id": 139
+    },
+    {
+      "label": "Adult Themes",
+      "type": "content",
+      "legacyid": 58,
+      "integration": false,
+      "deprecated": false,
+      "id": 40
+    },
+    {
+      "label": "Personal Sites",
+      "type": "content",
+      "legacyid": 363,
+      "integration": false,
+      "deprecated": false,
+      "id": 129
+    },
+    {
+      "label": "Fashion",
+      "type": "content",
+      "legacyid": 339,
+      "integration": false,
+      "deprecated": false,
+      "id": 117
+    },
+    {
+      "label": "Newly Seen Domains",
+      "type": "security",
+      "legacyid": 172,
+      "integration": false,
+      "deprecated": false,
+      "id": 108
+    },
+    {
+      "label": "IT-AGCOM",
+      "type": "content",
+      "legacyid": 410,
+      "integration": false,
+      "deprecated": false,
+      "id": 156
+    },
+    {
+      "label": "German Youth Protection",
+      "type": "content",
+      "legacyid": 74,
+      "integration": false,
+      "deprecated": false,
+      "id": 56
+    },
+    {
+      "label": "Educational Institutions",
+      "type": "content",
+      "legacyid": 52,
+      "integration": false,
+      "deprecated": false,
+      "id": 33
+    },
+    {
+      "label": "Health and Fitness",
+      "type": "content",
+      "legacyid": 14,
+      "integration": false,
+      "deprecated": false,
+      "id": 13
+    },
+    {
+      "label": "Radio",
+      "type": "content",
+      "legacyid": 22,
+      "integration": false,
+      "deprecated": false,
+      "id": 22
+    },
+    {
+      "label": "Potentially Harmful",
+      "type": "security",
+      "legacyid": 174,
+      "integration": false,
+      "deprecated": false,
+      "id": 109
+    },
+    {
+      "label": "Paranormal",
+      "type": "content",
+      "legacyid": 391,
+      "integration": false,
+      "deprecated": false,
+      "id": 143
+    },
+    {
+      "label": "Music",
+      "type": "content",
+      "legacyid": 50,
+      "integration": false,
+      "deprecated": false,
+      "id": 36
+    },
+    {
+      "label": "Lingerie/Bikini",
+      "type": "content",
+      "legacyid": 60,
+      "integration": false,
+      "deprecated": false,
+      "id": 41
+    },
+    {
+      "label": "File Transfer Services",
+      "type": "content",
+      "legacyid": 341,
+      "integration": false,
+      "deprecated": false,
+      "id": 118
+    },
+    {
+      "label": "Cryptomining",
+      "type": "security",
+      "legacyid": 403,
+      "integration": false,
+      "deprecated": false,
+      "id": 150
+    },
+    {
+      "label": "Real Estate",
+      "type": "content",
+      "legacyid": 367,
+      "integration": false,
+      "deprecated": false,
+      "id": 131
+    },
+    {
+      "label": "Illegal Downloads",
+      "type": "content",
+      "legacyid": 349,
+      "integration": false,
+      "deprecated": false,
+      "id": 122
+    },
+    {
+      "label": "Proxy/Anonymizer",
+      "type": "content",
+      "legacyid": 61,
+      "integration": false,
+      "deprecated": false,
+      "id": 43
+    },
+    {
+      "label": "Dynamic DNS",
+      "type": "security",
+      "legacyid": 85,
+      "integration": false,
+      "deprecated": false,
+      "id": 61
+    },
+    {
+      "label": "Visual Search Engines",
+      "type": "content",
+      "legacyid": 27,
+      "integration": false,
+      "deprecated": false,
+      "id": 29
+    },
+    {
+      "label": "Application Block",
+      "type": "customer",
+      "legacyid": 405,
+      "integration": false,
+      "deprecated": false,
+      "id": 151
+    },
+    {
+      "label": "Pornography",
+      "type": "content",
+      "legacyid": 64,
+      "integration": false,
+      "deprecated": false,
+      "id": 44
+    },
+    {
+      "label": "Dating",
+      "type": "content",
+      "legacyid": 7,
+      "integration": false,
+      "deprecated": false,
+      "id": 6
+    },
+    {
+      "label": "Arts",
+      "type": "content",
+      "legacyid": 327,
+      "integration": false,
+      "deprecated": false,
+      "id": 111
+    },
+    {
+      "label": "Video Sharing",
+      "type": "content",
+      "legacyid": 26,
+      "integration": false,
+      "deprecated": false,
+      "id": 28
+    },
+    {
+      "label": "Science and Technology",
+      "type": "content",
+      "legacyid": 373,
+      "integration": false,
+      "deprecated": false,
+      "id": 134
+    },
+    {
+      "label": "Command and Control",
+      "type": "security",
+      "legacyid": 90,
+      "integration": false,
+      "deprecated": false,
+      "id": 64
+    },
+    {
+      "label": "Podcasts",
+      "type": "content",
+      "legacyid": 71,
+      "integration": false,
+      "deprecated": false,
+      "id": 51
+    },
+    {
+      "label": "Software/Technology",
+      "type": "content",
+      "legacyid": 47,
+      "integration": false,
+      "deprecated": false,
+      "id": 25
+    },
+    {
+      "label": "Financial Institutions",
+      "type": "content",
+      "legacyid": 55,
+      "integration": false,
+      "deprecated": false,
+      "id": 34
+    },
+    {
+      "label": "Hunting",
+      "type": "content",
+      "legacyid": 397,
+      "integration": false,
+      "deprecated": false,
+      "id": 146
+    },
+    {
+      "label": "Lotteries",
+      "type": "content",
+      "legacyid": 355,
+      "integration": false,
+      "deprecated": false,
+      "id": 125
+    },
+    {
+      "label": "Application",
+      "type": "application",
+      "legacyid": 400,
+      "integration": false,
+      "deprecated": false,
+      "id": 148
+    },
+    {
+      "label": "Movies",
+      "type": "content",
+      "legacyid": 19,
+      "integration": false,
+      "deprecated": false,
+      "id": 17
+    },
+    {
+      "label": "Blogs",
+      "type": "content",
+      "legacyid": 4,
+      "integration": false,
+      "deprecated": false,
+      "id": 3
+    },
+    {
+      "label": "Hate/Discrimination",
+      "type": "content",
+      "legacyid": 13,
+      "integration": false,
+      "deprecated": false,
+      "id": 12
+    },
+    {
+      "label": "Application Allow",
+      "type": "customer",
+      "legacyid": 407,
+      "integration": false,
+      "deprecated": false,
+      "id": 152
+    },
+    {
+      "label": "Auctions",
+      "type": "content",
+      "legacyid": 3,
+      "integration": false,
+      "deprecated": false,
+      "id": 2
+    },
+    {
+      "label": "Malware",
+      "type": "security",
+      "legacyid": 94,
+      "integration": false,
+      "deprecated": false,
+      "id": 66
+    },
+    {
+      "label": "Online Meetings",
+      "type": "content",
+      "legacyid": 389,
+      "integration": false,
+      "deprecated": false,
+      "id": 142
+    },
+    {
+      "label": "URL Shortener",
+      "type": "content",
+      "legacyid": 170,
+      "integration": false,
+      "deprecated": false,
+      "id": 107
+    },
+    {
+      "label": "Search Engines",
+      "type": "content",
+      "legacyid": 23,
+      "integration": false,
+      "deprecated": false,
+      "id": 23
+    },
+    {
+      "label": "Academic Fraud",
+      "type": "content",
+      "legacyid": 72,
+      "integration": false,
+      "deprecated": false,
+      "id": 47
+    },
+    {
+      "label": "Government",
+      "type": "content",
+      "legacyid": 49,
+      "integration": false,
+      "deprecated": false,
+      "id": 35
+    },
+    {
+      "label": "Nature",
+      "type": "content",
+      "legacyid": 359,
+      "integration": false,
+      "deprecated": false,
+      "id": 127
+    },
+    {
+      "label": "P2P/File sharing",
+      "type": "content",
+      "legacyid": 20,
+      "integration": false,
+      "deprecated": false,
+      "id": 19
+    },
+    {
+      "label": "Anime/Manga/Webcomic",
+      "type": "content",
+      "legacyid": 76,
+      "integration": false,
+      "deprecated": false,
+      "id": 57
+    },
+    {
+      "label": "Phishing",
+      "type": "security",
+      "legacyid": 98,
+      "integration": false,
+      "deprecated": false,
+      "id": 68
+    },
+    {
+      "label": "Games",
+      "type": "content",
+      "legacyid": 12,
+      "integration": false,
+      "deprecated": false,
+      "id": 11
+    },
+    {
+      "label": "Dining and Drinking",
+      "type": "content",
+      "legacyid": 335,
+      "integration": false,
+      "deprecated": false,
+      "id": 115
+    },
+    {
+      "label": "File Storage",
+      "type": "content",
+      "legacyid": 10,
+      "integration": false,
+      "deprecated": false,
+      "id": 9
+    },
+    {
+      "label": "DIY Projects",
+      "type": "content",
+      "legacyid": 395,
+      "integration": false,
+      "deprecated": false,
+      "id": 145
+    },
+    {
+      "label": "Classifieds",
+      "type": "content",
+      "legacyid": 6,
+      "integration": false,
+      "deprecated": false,
+      "id": 5
+    },
+    {
+      "label": "Astrology",
+      "type": "content",
+      "legacyid": 329,
+      "integration": false,
+      "deprecated": false,
+      "id": 112
+    },
+    {
+      "label": "Software Updates",
+      "type": "content",
+      "legacyid": 381,
+      "integration": false,
+      "deprecated": false,
+      "id": 138
+    },
+    {
+      "label": "Humor",
+      "type": "content",
+      "legacyid": 15,
+      "integration": false,
+      "deprecated": false,
+      "id": 14
+    },
+    {
+      "label": "Sexuality",
+      "type": "content",
+      "legacyid": 62,
+      "integration": false,
+      "deprecated": false,
+      "id": 45
+    },
+    {
+      "label": "Religious",
+      "type": "content",
+      "legacyid": 65,
+      "integration": false,
+      "deprecated": false,
+      "id": 53
+    },
+    {
+      "label": "SaaS and B2B",
+      "type": "content",
+      "legacyid": 369,
+      "integration": false,
+      "deprecated": false,
+      "id": 132
+    },
+    {
+      "label": "Television",
+      "type": "content",
+      "legacyid": 34,
+      "integration": false,
+      "deprecated": false,
+      "id": 26
+    },
+    {
+      "label": "Infrastructure",
+      "type": "content",
+      "legacyid": 351,
+      "integration": false,
+      "deprecated": false,
+      "id": 123
+    },
+    {
+      "label": "Web Page Translation",
+      "type": "content",
+      "legacyid": 385,
+      "integration": false,
+      "deprecated": false,
+      "id": 140
+    },
+    {
+      "label": "Jobs/Employment",
+      "type": "content",
+      "legacyid": 17,
+      "integration": false,
+      "deprecated": false,
+      "id": 16
+    },
+    {
+      "label": "Safe for Kids",
+      "type": "content",
+      "legacyid": 371,
+      "integration": false,
+      "deprecated": false,
+      "id": 133
+    },
+    {
+      "label": "Hacking",
+      "type": "content",
+      "legacyid": 345,
+      "integration": false,
+      "deprecated": false,
+      "id": 120
+    },
+    {
+      "label": "Tobacco",
+      "type": "content",
+      "legacyid": 73,
+      "integration": false,
+      "deprecated": false,
+      "id": 38
+    },
+    {
+      "label": "Mobile Phones",
+      "type": "content",
+      "legacyid": 357,
+      "integration": false,
+      "deprecated": false,
+      "id": 126
+    },
+    {
+      "label": "Internet Telephony",
+      "type": "content",
+      "legacyid": 353,
+      "integration": false,
+      "deprecated": false,
+      "id": 124
+    },
+    {
+      "label": "SecureX",
+      "type": "security",
+      "legacyid": 129,
+      "integration": true,
+      "deprecated": false,
+      "id": 87
+    },
+    {
+      "label": "Weapons",
+      "type": "content",
+      "legacyid": 28,
+      "integration": false,
+      "deprecated": false,
+      "id": 30
+    },
+    {
+      "label": "Global Whitelist",
+      "type": "system",
+      "legacyid": 116,
+      "integration": false,
+      "deprecated": false,
+      "id": 73
+    },
+    {
+      "label": "Gambling",
+      "type": "content",
+      "legacyid": 11,
+      "integration": false,
+      "deprecated": false,
+      "id": 10
+    },
+    {
+      "label": "News/Media",
+      "type": "content",
+      "legacyid": 33,
+      "integration": false,
+      "deprecated": false,
+      "id": 18
+    },
+    {
+      "label": "Politics",
+      "type": "content",
+      "legacyid": 66,
+      "integration": false,
+      "deprecated": false,
+      "id": 52
+    },
+    {
+      "label": "Digital Postcards",
+      "type": "content",
+      "legacyid": 333,
+      "integration": false,
+      "deprecated": false,
+      "id": 114
+    },
+    {
+      "label": "Military",
+      "type": "content",
+      "legacyid": 399,
+      "integration": false,
+      "deprecated": false,
+      "id": 147
+    },
+    {
+      "label": "Malware",
+      "type": "security",
+      "legacyid": 96,
+      "integration": false,
+      "deprecated": false,
+      "id": 67
+    },
+    {
+      "label": "Block List",
+      "type": "customer",
+      "legacyid": 112,
+      "integration": false,
+      "deprecated": false,
+      "id": 71
+    },
+    {
+      "label": "Nudity",
+      "type": "content",
+      "legacyid": 63,
+      "integration": false,
+      "deprecated": false,
+      "id": 42
+    },
+    {
+      "label": "Parked Domains",
+      "type": "content",
+      "legacyid": 57,
+      "integration": false,
+      "deprecated": false,
+      "id": 37
+    },
+    {
+      "label": "High Risk Sites and Locations",
+      "type": "security",
+      "legacyid": 89,
+      "integration": false,
+      "deprecated": false,
+      "id": 63
+    },
+    {
+      "label": "Ecommerce/Shopping",
+      "type": "content",
+      "legacyid": 9,
+      "integration": false,
+      "deprecated": false,
+      "id": 8
+    },
+    {
+      "label": "Forums/Message boards",
+      "type": "content",
+      "legacyid": 67,
+      "integration": false,
+      "deprecated": false,
+      "id": 49
+    }
+  ]
+}
