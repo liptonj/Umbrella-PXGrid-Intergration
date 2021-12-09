@@ -1,0 +1,16 @@
+
+ISE_HOSTNAME=<ISE FQDN>
+SERVICE_NODENAME=<PXGrid Serivce Name>
+PXGRID_CERT=<Path To PXGrid Certificate Generated From ISE>
+PXGRID_KEY=<Path To PXGrid Key Generated From ISE >
+PXGRID_KEY_PASSWORD=<PXGrid Key Password>
+ISE_CA_CHAIN=<Path To ISE Server Chain>
+ISE_ERS_USERNAME=<ERS Username>
+ISE_ERS_PASSWORD=<ERS Password>
+ISE_POLICY=<ANC Policy Name>
+UMBRELLA_TOKEN_URL=https://management.api.umbrella.com/auth/v2/oauth2/token
+UMBRELLA_ORG_ID=<Umbrella ORG ID>
+UMBRELLA_CLIENT_ID=
+UMBRELLA_CLIENT_SECERET=
+UMBRELLA_CATEGORIES=109,67,150,403
+POLL_TIMER=90

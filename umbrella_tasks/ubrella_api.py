@@ -1,9 +1,5 @@
 import logging
-
 import requests
-import json
-import os
-import time
 from oauthlib.oauth2 import BackendApplicationClient
 from oauthlib.oauth2 import TokenExpiredError
 from requests_oauthlib import OAuth2Session

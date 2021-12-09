@@ -1,7 +1,7 @@
 import base64
 import json
 import urllib.request
-
+import logging
 
 class PxgridControl:
     def __init__(self, config):
@@ -11,9 +11,9 @@ class PxgridControl:
         url = 'https://' + \
             self.config.get_host_name() + \
             ':8910/pxgrid/control/' + url_suffix
-        print("pxgrid url=" + url)
+        logging.debug("pxgrid url=" + url)
         json_string = json.dumps(payload)
-        print('  request=' + json_string)
+        logging.debug('  request=' + json_string)
         handler = urllib.request.HTTPSHandler(
             context=self.config.get_ssl_context())
         opener = urllib.request.build_opener(handler)
@@ -26,7 +26,7 @@ class PxgridControl:
         rest_request.add_header('Authorization', 'Basic ' + b64)
         rest_response = opener.open(rest_request)
         response = rest_response.read().decode()
-        print('  response=' + response)
+        logging.info('PXGrid Send Rest Request Response:' + response)
         return json.loads(response)
 
     def account_activate(self):
@@ -52,8 +52,8 @@ class PxgridControl:
         return service_lookup_response['services'][0]
     
     def query(self, secret, url, payload):
-        print('query url=' + url)
-        print('  request=' + str(payload))
+        logging.debug('query url=' + url)
+        logging.debug('request=' + str(payload))
         handler = urllib.request.HTTPSHandler(
             context=self.config.get_ssl_context())
         opener = urllib.request.build_opener(handler)
@@ -65,5 +65,5 @@ class PxgridControl:
             (self.config.get_node_name() + ':' + secret).encode()).decode()
         rest_request.add_header('Authorization', 'Basic ' + b64)
         rest_response = opener.open(rest_request)
-        print('  response status=' + str(rest_response.getcode()))
-        print('  response content=' + rest_response.read().decode())
+        logging.info('PXGrid query response code: ' + str(rest_response.getcode()))
+        logging.info('PXGrid query response: ' + rest_response.read().decode())

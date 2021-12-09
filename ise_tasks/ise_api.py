@@ -1,13 +1,12 @@
 import sys
 import json
-from ise import ERS
-sys.path.append('pxgrid-rest-ws/python')
 import time
-import asyncio
-import signal
-from pxgrid import PxgridControl,Config,subscribe_loop
+from ise import ERS
+from pxgrid import PxgridControl,Config
+from .session_subscribe import subscribe_loop
 from os import getenv,environ
 
+sys.path.append('pxgrid-rest-ws/python')
 for var in ['ISE_HOSTNAME', 'ISE_ERS_USERNAME', 'ISE_ERS_PASSWORD','ISE_POLICY']:
     if environ.get(var) == None:
         print("Required ISE ERS environment variablse: {} not set".format(var))
@@ -22,8 +21,9 @@ while pxgrid_obj.account_activate()['accountState'] != 'ENABLED':
 
 ise_obj = ERS(ise_node=getenv("ISE_HOSTNAME"),ers_user=getenv("ISE_ERS_USERNAME"),ers_pass=getenv("ISE_ERS_PASSWORD"),
               verify=False,disable_warnings=True)
+
 async def setup_sessions():
-# lookup for pubsub service
+    # lookup for pubsub service
     service_lookup_response = pxgrid_obj.service_lookup('com.cisco.ise.session')
     service = service_lookup_response['services'][0]
     pubsub_service_name = service['properties']['wsPubsubService']
@@ -37,7 +37,7 @@ async def setup_sessions():
     secret = pxgrid_obj.get_access_secret(pubsub_node_name)['secret']
     ws_url = pubsub_service['properties']['wsUrl']
 
-    await subscribe_loop(config, secret, ws_url, topic,pubsub_node_name)
+    await subscribe_loop(config, pxgrid_obj, secret, ws_url, topic,pubsub_node_name)
 
 
 
@@ -59,7 +59,7 @@ def endpoint_details(mac):
         else:
             pass
 
-def get_session_px(pxgrid_obj,ip_address):
+def get_session_px(ip_address):
     service_lookup_response = pxgrid_obj.service_lookup('com.cisco.ise.session')
     service = service_lookup_response['services'][0]
     node_name = service['nodeName']
@@ -76,8 +76,7 @@ def apply_policy_ip(ip_address):
     secret = pxgrid_obj.get_access_secret(node_name)['secret']
     url = service['properties']['restBaseUrl'] + '/applyEndpointByIpAddress'
     payload=json.dumps({"policyName":getenv("ISE_POLICY"), "ipAddress": ip_address})
-
-    pxgrid_obj.query(secret,url,str.encode(payload))
+    endpoint_info = pxgrid_obj.query(secret,url,str.encode(payload))
     
 if __name__ == "__main__":
  # lookup for session service
