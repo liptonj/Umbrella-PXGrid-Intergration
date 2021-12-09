@@ -5,6 +5,10 @@
 logs/
 #pxgrid certs
 pxgrid_cert/
+
+archive/
+#filtes to ignore
+securex.json
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -144,3 +148,5 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
+#Idea
+,idea/
